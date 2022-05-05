@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#FFA500"
+tools:context=".Indian">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:text="INDIAN FOOD"
+    android:textStyle="bold"
+    android:id="@+id/textView"
+    android:textSize="35dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_centerHorizontal="true"
+    android:layout_alignParentTop="true" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="700dp"
+        android:layout_marginTop="30dp">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/dal_rice"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:padding="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/dal_rice"
+                android:text="DAL RICE" />
+
+            <ImageButton
+                android:id="@+id/biryani"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:padding="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/biryani" />
+
+            <ImageButton
+                android:id="@+id/pnb"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:padding="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/pnb" />
+
+
+            <ImageButton
+                android:id="@+id/cb"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:padding="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/chole_bhature" />
+
+            <ImageButton
+                android:id="@+id/samosa"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@color/black"
+                android:padding="50dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/samosa" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
